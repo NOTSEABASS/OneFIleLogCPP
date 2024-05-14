@@ -70,9 +70,9 @@ private:
 
 int main() {
     Logs log;
-    log.logSetting.logFilePath = "C:/Users/wuchenglin/Desktop/test/test.log";
+    log.logSetting.logFilePath = "D:/OneFileLog/test.log";
 
-    log.Log("{$} is a stupid guy, which has {$} mouse and {$} nose.", "Lao fan", 3.14, 2);
-    log.Log("{$} is a clever boy, which has {$} brain.", "Lao Knee", 65565);
+    log.Log("{$} is a stupid guy, which has {$} mouse and {$} nose.", "Allan", 3.14, 2);
+    log.Log("{$} is a clever boy, which has {$} brain.", "Albert", 65565);
     return 0;
 }
